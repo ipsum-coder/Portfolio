@@ -2,6 +2,7 @@
 {
 
     --primary-color : rgb(255, 255, 255);
+    --secondary-color : #f7f7f7;
     --primary-nav-color : #fff;
     --text-color : rgb(44, 42, 42);
     --shadow-color : rgb(56, 55, 55);
@@ -12,6 +13,8 @@
     --greetings-color : #181f59;
     --title-color : #ff7b00;
     --span-color : rgb(148, 8, 8);
+    --link-color-tertiary : #fff;
+    --btn-color-about : rgb(12, 42, 163);
 }
 
 *
@@ -103,7 +106,77 @@ div.bx-menu
     display: none;
 }
 
-                                    /* ADDING RESPONSIVENESS TO WEBSITE */
+                                  /* END OF NAVIGATION BAR STYLING */
+                        
+#particles-js
+{
+    background-color: var(--secondary-color);
+}                   
+.main-content
+{
+    margin-top: 65px;
+    position: absolute;
+}
+
+.introduction
+{
+    margin-left: 146px;
+    margin-top: 130px;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.introduction h2
+{
+    color: var(--greetings-color);
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.introduction span
+{
+    color: var(--title-color);
+}
+
+.typing-text
+{
+    margin-left: 146px;
+    font-size: 17px;
+    font-weight: 1000;
+}
+
+.typing-text span
+{
+    color: var(--span-color);
+}
+
+
+.buttons-nav-bar
+{
+    margin-left: 150px;
+    margin-top: 40px;
+    background-color: var(--btn-color-about);
+    width: 180px;
+    height: 50px;
+    padding-left: 42px;
+    padding-right: 15px;
+    padding-top: 16px;
+    border-radius: 4.9rem;
+    font-family: "Nunito", sans-serif;
+    box-shadow: 0px 5px 18px var(--btn-color-about);
+}
+
+.buttons-nav-bar a
+{
+    color: var(--link-color-tertiary);
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* ADDING RESPONSIVENESS TO THE WEBSITE  */
 
 @media (max-width: 1024px)
 {
@@ -158,47 +231,4 @@ div.bx-menu
        {
         padding-left: 50px;
        }
-}
-
-                                  /* END OF NAVIGATION BAR STYLING */
-                        
-                                  
-.main-content
-{
-    margin-top: 65px;
-    position: absolute;
-}
-
-.introduction
-{
-    margin-left: 146px;
-    margin-top: 130px;
-    font-size: 35px;
-    font-weight: 800;
-    margin-bottom: 15px;
-}
-
-.introduction h2
-{
-    color: var(--greetings-color);
-    word-spacing: 1.5px;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-}
-
-.introduction span
-{
-    color: var(--title-color);
-}
-
-.typing-text
-{
-    margin-left: 146px;
-    font-size: 17px;
-    font-weight: 1000;
-}
-
-.typing-text span
-{
-    color: var(--span-color);
 }

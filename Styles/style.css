@@ -15,6 +15,7 @@
     --span-color : rgb(148, 8, 8);
     --link-color-tertiary : #fff;
     --btn-color-about : rgb(12, 42, 163);
+    --btn-color-about-hover : #030c5f;
 }
 
 *
@@ -167,7 +168,10 @@ div.bx-menu
     font-family: "Nunito", sans-serif;
     box-shadow: 0px 5px 18px var(--btn-color-about);
 }
-
+.buttons-nav-bar:hover
+{
+    background-color: var(--btn-color-about-hover);
+}
 .buttons-nav-bar a
 {
     color: var(--link-color-tertiary);

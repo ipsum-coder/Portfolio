@@ -16,6 +16,12 @@
     --link-color-tertiary : #fff;
     --btn-color-about : rgb(12, 42, 163);
     --btn-color-about-hover : #071385;
+    --black : #000;
+    --aqua : rgb(8, 215, 215);
+    --white : #fff;
+    --linkedin : rgb(10, 102, 194);
+    --twitter : #00acee;
+    --telegram : #0088cc;
 }
 
 *
@@ -117,7 +123,7 @@ div.bx-menu
 }                   
 .main-content
 {
-    margin-top: 65px;
+    margin-top: 55px;
     position: absolute;
 }
 
@@ -189,6 +195,61 @@ i.arrow-down-btn:hover
 {
     margin-left: 7px;    
 }
+
+.btn-about
+{
+    background-color: var(--black);
+    width: 45px;
+    height: 45px;
+    border-radius: 1.9rem;
+    margin-top: 8px;
+}
+
+.about-btns
+{
+    margin-left: 11px;
+    margin-top: 22px;
+    color: var(--aqua);
+    height: 100%;
+    width: 85%;
+    transition: all ease 0.5s;
+}
+
+div.linkedin .fa-linkedin:hover
+{
+    color: var(--white);
+}
+
+div.linkedin:hover
+{
+    background-color: var(--linkedin);
+}
+
+div.github .fa-github:hover
+{
+    color: var(--white);
+}
+
+div.twitter .fa-twitter:hover
+{
+    color: var(--white);
+}
+
+div.twitter:hover
+{
+    background-color: var(--twitter);
+}
+
+div.telegram .fa-telegram:hover
+{
+    color: var(--white);
+}
+
+div.telegram:hover
+{
+    background-color: var(--linkedin);
+}
+
 
 /* ADDING RESPONSIVENESS TO THE WEBSITE  */
 

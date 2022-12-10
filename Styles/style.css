@@ -15,7 +15,7 @@
     --span-color : rgb(148, 8, 8);
     --link-color-tertiary : #fff;
     --btn-color-about : rgb(12, 42, 163);
-    --btn-color-about-hover : #030c5f;
+    --btn-color-about-hover : #071385;
 }
 
 *
@@ -111,7 +111,9 @@ div.bx-menu
                         
 #particles-js
 {
+    margin-top: 65px;
     background-color: var(--secondary-color);
+    height: 100%;
 }                   
 .main-content
 {
@@ -168,10 +170,13 @@ div.bx-menu
     font-family: "Nunito", sans-serif;
     box-shadow: 0px 5px 18px var(--btn-color-about);
 }
+
 .buttons-nav-bar:hover
 {
     background-color: var(--btn-color-about-hover);
+    cursor: pointer;
 }
+
 .buttons-nav-bar a
 {
     color: var(--link-color-tertiary);
@@ -180,9 +185,14 @@ div.bx-menu
     letter-spacing: 1px;
 }
 
+i.arrow-down-btn:hover
+{
+    margin-left: 7px;    
+}
+
 /* ADDING RESPONSIVENESS TO THE WEBSITE  */
 
-@media (max-width: 1024px)
+@media (max-width: 1023px)
 {
        .menu-bar
        {

@@ -1,6 +1,5 @@
 :root
 {
-
     --primary-color : rgb(255, 255, 255);
     --secondary-color : #f7f7f7;
     --primary-nav-color : #fff;
@@ -22,6 +21,7 @@
     --linkedin : rgb(10, 102, 194);
     --twitter : #00acee;
     --telegram : #0088cc;
+    --instagram : #ee00da;
 }
 
 *
@@ -123,7 +123,7 @@ div.bx-menu
 }                   
 .main-content
 {
-    margin-top: 55px;
+    margin-top: 25px;
     position: absolute;
 }
 
@@ -196,114 +196,83 @@ i.arrow-down-btn:hover
     margin-left: 7px;    
 }
 
-.btn-about
+.socials-nav-bar
+{
+    margin-top: 37px;
+    margin-left: 150px;
+}
+
+i.fa-brands:not(.fa-node-js)
 {
     background-color: var(--black);
-    width: 45px;
     height: 45px;
-    border-radius: 1.9rem;
-    margin-top: 8px;
-}
-
-.about-btns
-{
-    margin-left: 11px;
-    margin-top: 22px;
+    width: 45px;
+    padding-left: 11.5px;
+    padding-top: 22px;
+    border-radius: 1.8rem;
+    margin-right: 5px;
     color: var(--aqua);
-    height: 100%;
-    width: 85%;
-    transition: all ease 0.5s;
 }
 
-div.linkedin .fa-linkedin:hover
-{
-    color: var(--white);
-}
 
-div.linkedin:hover
+i.fa-linkedin:hover
 {
     background-color: var(--linkedin);
+    color: var(--white);
 }
 
-div.github .fa-github:hover
+i.fa-github:hover
 {
     color: var(--white);
 }
 
-div.twitter .fa-twitter:hover
+i.fa-twitter:hover
 {
     color: var(--white);
-}
-
-div.twitter:hover
-{
     background-color: var(--twitter);
 }
 
-div.telegram .fa-telegram:hover
+i.fa-telegram-plane
+{
+    font-size: 25px;
+    margin-left: 5px;
+    padding-bottom: 20px;
+}
+
+i.fa-telegram-plane:hover
+{
+    color: var(--white);
+    background-color: var(--telegram);
+}
+
+i.fa-instagram:hover
+{
+    color : var(--white);
+    background-color: var(--instagram);
+}
+
+i.fa-dev:hover
 {
     color: var(--white);
 }
 
-div.telegram:hover
+img.logo-hero
 {
-    background-color: var(--linkedin);
+    border-radius: 15rem;
+    cursor: pointer;
+    display: flex;
+    margin-top: 60px;
+    float: right;
+    height: 430px;
+    box-shadow : 0 0 5px var(--text-color);
 }
 
-
-/* ADDING RESPONSIVENESS TO THE WEBSITE  */
-
-@media (max-width: 1023px)
+img.logo-hero:hover
 {
-       .menu-bar
-       {
-        position: absolute;
-		top: 100%;
-		right: -100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		transition: all 3s ease;
-       }
-       .menu-bar a.is-active 
-       {
-        border-bottom: 4px solid var(--active-color);
-        border-radius: 10%;
-        padding-left: 60px ;
-        padding-right: 60px;
-        color: white;
-        padding-top: 25px;
-       }
-       .menu-bar a:not(.is-active)
-       {
-        color : white;
-        padding-left: 60px ;
-        padding-right: 60px;
-        padding-top: 13px;
-       }
-       .menu-bar a:hover:not(.is-active)
-       {
-        border-bottom: 4px solid var(--active-color);
-        border-radius : 10%;
-       }
-       .menu-bar.open-nav-bar
-       {
-           left: 30%;
-           height: 1500%;
-           background-color: var(--mobile-background-color);
-           width: 70%;
-           align-items: center;
-       }
+    box-shadow : 0 0 12px var(--text-color);
+}
 
-       div.bx-menu
-       {
-        display: flex;
-        font-size: 32px;
-        font-weight: 700;
-       }
-
-       a#logo-nav-bar
-       {
-        padding-left: 50px;
-       }
+.image-logo
+{
+    width: 1300px;
 }

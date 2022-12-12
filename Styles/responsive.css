@@ -1,0 +1,371 @@
+/* Navigation Bar  */
+
+@media (max-width: 1023px)
+{
+       .menu-bar
+       {
+        position: absolute;
+		top: 100%;
+		right: -100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		transition: all 3s ease;
+       }
+       .menu-bar a.is-active 
+       {
+        border-bottom: 4px solid var(--active-color);
+        border-radius: 10%;
+        padding-left: 60px ;
+        padding-right: 60px;
+        color: white;
+        padding-top: 25px;
+       }
+       .menu-bar a:not(.is-active)
+       {
+        color : white;
+        padding-left: 60px ;
+        padding-right: 60px;
+        padding-top: 13px;
+       }
+       .menu-bar a:hover:not(.is-active)
+       {
+        border-bottom: 4px solid var(--active-color);
+        border-radius : 10%;
+       }
+       .menu-bar.open-nav-bar
+       {
+           left: 30%;
+           height: 1500%;
+           background-color: var(--mobile-background-color);
+           width: 70%;
+           align-items: center;
+       }
+       div.bx-menu
+       {
+        display: flex;
+        font-size: 32px;
+        font-weight: 700;
+       }
+       a#logo-nav-bar
+       {
+        padding-left: 50px;
+       }
+}
+
+
+@media (max-width : 1500px)
+{
+    .introduction
+    {
+    margin-left: 250px;
+    margin-top: 130px;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    }
+
+    .typing-text
+    {
+    margin-left: 250px;
+    font-size: 17px;
+    font-weight: 1000;
+    }
+
+    .buttons-nav-bar
+    {
+    margin-left: 250px;
+    }
+
+    .socials-nav-bar
+    {
+    margin-left: 250px;
+    }
+
+    img.logo-hero
+    {
+    border-radius: 15rem;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 400px;
+    box-shadow : 0 0 5px var(--text-color);
+    margin-bottom: 30px;
+    }
+
+    .image-logo
+    {
+    width: 1200px;
+    }
+}
+
+@media (max-width : 1023px)
+{
+    .introduction
+    {
+    margin-left: 200px;
+    margin-top: 350px;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    }
+
+    .typing-text
+    {
+    margin-left: 200px;
+    font-size: 17px;
+    font-weight: 1000;
+    }
+
+    .buttons-nav-bar
+    {
+    margin-left: 200px;
+    }
+
+    .socials-nav-bar
+    {
+    margin-left: 200px;
+    }
+
+    img.logo-hero
+    {
+    border-radius: 15rem;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 250px;
+    box-shadow : 0 0 5px var(--text-color);
+    margin-bottom: 30px;
+    }
+    img.logo-hero:hover
+    {
+    box-shadow : 0 0 12px var(--text-color);
+    }
+    .image-logo
+    {
+    width: 400px;
+    }
+
+}
+
+@media (max-width : 1238px)
+{
+    img.logo-hero
+    {
+    border-radius: 15rem;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 350px;
+    box-shadow : 0 0 5px var(--text-color);
+    margin-bottom: 10px;
+    }
+    .image-logo
+    {
+    width: 1100px;
+    }
+}
+
+@media (max-width : 1142px)
+{
+    img.logo-hero
+    {
+    border-radius: 15rem;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 250px;
+    box-shadow : 0 0 5px var(--text-color);
+    margin-bottom: 30px;
+    }
+    .image-logo
+    {
+    width: 470px;
+    }
+}
+
+@media (max-width : 705px)
+{
+    .introduction
+    {
+    margin-left: 30px;
+    margin-top: 350px;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    }
+
+    .typing-text
+    {
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 1000;
+    }
+
+    .buttons-nav-bar
+    {
+    margin-left: 30px;
+    }
+
+    .socials-nav-bar
+    {
+    margin-left: 30px;
+    }
+
+    img.logo-hero
+    {
+    border-radius: 15rem;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 250px;
+    box-shadow : 0 0 5px var(--text-color);
+    margin-bottom: 30px;
+    }
+    img.logo-hero:hover
+    {
+    box-shadow : 0 0 12px var(--text-color);
+    }
+    .image-logo
+    {
+    width: 280px;
+    }
+}
+
+#particles-js
+{
+    height: 120vh;
+}
+
+@media (max-width : 400px)
+{
+    .introduction
+    {
+    margin-left: 200px;
+    margin-top: 350px;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    }
+
+    .typing-text
+    {
+    margin-left: 200px;
+    font-size: 17px;
+    font-weight: 1000;
+    }
+
+    .buttons-nav-bar
+    {
+    margin-left: 200px;
+    }
+
+    .socials-nav-bar
+    {
+    margin-left: 200px;
+    }
+
+    img.logo-hero
+    {
+    border-radius: 15rem;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 250px;
+    box-shadow : 0 0 5px var(--text-color);
+    margin-bottom: 30px;
+    }
+    img.logo-hero:hover
+    {
+    box-shadow : 0 0 12px var(--text-color);
+    }
+    .image-logo
+    {
+    width: 400px;
+    }
+
+}
+
+@media (max-width : 1238px)
+{
+    img.logo-hero
+    {
+    border-radius: 15rem;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 350px;
+    box-shadow : 0 0 5px var(--text-color);
+    margin-bottom: 10px;
+    }
+    .image-logo
+    {
+    width: 1100px;
+    }
+}
+
+@media (max-width : 1142px)
+{
+    img.logo-hero
+    {
+    border-radius: 15rem;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 250px;
+    box-shadow : 0 0 5px var(--text-color);
+    margin-bottom: 30px;
+    }
+    .image-logo
+    {
+    width: 470px;
+    }
+}
+
+@media (max-width : 705px)
+{
+    .introduction
+    {
+    margin-left: 15px;
+    margin-top: 350px;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    }
+
+    .typing-text
+    {
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 1000;
+    }
+
+    .buttons-nav-bar
+    {
+    margin-left: 15px;
+    }
+
+    .socials-nav-bar
+    {
+    margin-left: 15px;
+    }
+
+    img.logo-hero
+    {
+    border-radius: 15rem;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 250px;
+    box-shadow : 0 0 5px var(--text-color);
+    margin-bottom: 30px;
+    }
+    img.logo-hero:hover
+    {
+    box-shadow : 0 0 12px var(--text-color);
+    }
+    .image-logo
+    {
+    width: 260px;
+    }
+}

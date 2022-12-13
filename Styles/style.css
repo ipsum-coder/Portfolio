@@ -22,6 +22,8 @@
     --twitter : #00acee;
     --telegram : #0088cc;
     --instagram : #ee00da;
+    --about-span : rgb(115, 3, 167);
+    --color-span : #011aff;
 }
 
 *
@@ -32,7 +34,7 @@
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style-type: none;
-    transition: all 0.2s linear;
+    transition: all 0.3s linear;
 }
 
 
@@ -232,14 +234,14 @@ i.fa-twitter:hover
     background-color: var(--twitter);
 }
 
-i.fa-telegram-plane
+i.fa-telegram
 {
     font-size: 25px;
     margin-left: 5px;
     padding-bottom: 20px;
 }
 
-i.fa-telegram-plane:hover
+i.fa-telegram:hover
 {
     color: var(--white);
     background-color: var(--telegram);
@@ -275,4 +277,100 @@ img.logo-hero:hover
 .image-logo
 {
     width: 1300px;
+}
+
+/* About Styling Starts  */
+
+.about-head
+{
+    margin-top: 23px;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 900;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+span#me-about
+{
+    color: var(--about-span);
+}
+
+.about-image
+{
+    margin-top: 5.2%;
+    margin-left: 19%;
+    height: 100%;
+    position: absolute;
+}
+
+#image-about
+{
+    border-radius: 1.9rem;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.about-content
+{
+    width: 100vh;
+    margin-left: 50%;
+    margin-top: 5.2%;
+}
+
+.about-heading
+{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 6px;
+    letter-spacing: 1px;
+}
+
+.about-span
+{
+    letter-spacing: 0.3px;
+    font-size: 16.5px;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.about-content-page
+{
+    width: 100vh;
+    padding-right: 8.5%;
+    font-family: "nunito";
+    font-weight: 1.5rem;
+    font-size: 17px;
+    margin-bottom: 24px;
+}
+
+.info-about-email-age
+{
+    margin-bottom: 18px;
+}
+
+#Age
+{
+    color: var(--color-span);
+}
+
+#age-no
+{
+    margin-right: 150px;
+}
+
+#email
+{
+    color: var(--color-span);
+}
+
+#Phone
+{
+    color: var(--color-span);
+}
+
+#Place
+{
+    color: var(--color-span);
 }

@@ -24,6 +24,7 @@
     --instagram : #ee00da;
     --about-span : rgb(115, 3, 167);
     --color-span : #011aff;
+    --bg-color-sec : rgba(255, 248, 248, 0.932);
 }
 
 *
@@ -279,17 +280,33 @@ img.logo-hero:hover
     width: 1300px;
 }
 
-/* About Styling Starts  */
+/* Project Stopped Due To Less Time  */
+
+
+
+
+
+/* About Styling Starts 
+
+#about-page
+{
+    background-color: var(--bg-color-sec);
+    height: 100vh;
+}
 
 .about-head
 {
-    margin-top: 23px;
     font-size: 23px;
     font-family: sans-serif;
     font-weight: 900;
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.about-head h2
+{
+    margin-top: 10%;
 }
 
 span#me-about
@@ -300,9 +317,9 @@ span#me-about
 .about-image
 {
     margin-top: 5.2%;
-    margin-left: 19%;
-    height: 100%;
+    padding-left: 42vh;
     position: absolute;
+    height: 93vh;
 }
 
 #image-about
@@ -310,67 +327,14 @@ span#me-about
     border-radius: 1.9rem;
     transition: 0.3s ease;
     cursor: pointer;
+    box-shadow : 0 0 7px var(--text-color);
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
-.about-content
+#image-about:hover
 {
-    width: 100vh;
-    margin-left: 50%;
-    margin-top: 5.2%;
+    box-shadow : 0 0 10px var(--text-color);
+    filter: none;
 }
-
-.about-heading
-{
-    font-size: 28px;
-    font-weight: 900;
-    margin-bottom: 6px;
-    letter-spacing: 1px;
-}
-
-.about-span
-{
-    letter-spacing: 0.3px;
-    font-size: 16.5px;
-    font-weight: 800;
-    margin-bottom: 18px;
-}
-
-.about-content-page
-{
-    width: 100vh;
-    padding-right: 8.5%;
-    font-family: "nunito";
-    font-weight: 1.5rem;
-    font-size: 17px;
-    margin-bottom: 24px;
-}
-
-.info-about-email-age
-{
-    margin-bottom: 18px;
-}
-
-#Age
-{
-    color: var(--color-span);
-}
-
-#age-no
-{
-    margin-right: 150px;
-}
-
-#email
-{
-    color: var(--color-span);
-}
-
-#Phone
-{
-    color: var(--color-span);
-}
-
-#Place
-{
-    color: var(--color-span);
-}
+ */
